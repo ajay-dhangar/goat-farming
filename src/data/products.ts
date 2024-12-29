@@ -24,7 +24,7 @@ export const PRODUCTS: Product[] = [
     name: 'Premium Goat Feed',
     description: 'High-quality feed for optimal goat health',
     price: 49.99,
-    image: 'https://images.unsplash.com/photo-1585666624731-a445f6e4ed2f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbR-xswxF1wcnLhKCE3L2DA8Z5wUNtOECa-A&s',
     category: 'equipment',
     stock: 15
   }

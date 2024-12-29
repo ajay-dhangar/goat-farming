@@ -28,7 +28,7 @@ export default function About() {
           </div>
           <div>
             <img
-              src="https://images.unsplash.com/photo-1593179449458-e0d43d512595?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="https://images.unsplash.com/photo-1542481018-230d347a0af9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Our farm"
               className="rounded-lg shadow-lg"
             />

@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="relative h-[500px]">
       <img
-        src="https://images.unsplash.com/photo-1560926036-3d2d0a3b5c11?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+        src="https://images.unsplash.com/photo-1542481018-230d347a0af9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Goat farm"
         className="w-full h-full object-cover"
       />
