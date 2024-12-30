@@ -18,7 +18,7 @@ export default function App() {
       <AuthProvider>
         <CartProvider>
           <Routes>
-            <Route path="/goat-farming/auth" element={<Auth />} />
+            <Route path="/auth" element={<Auth />} />
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
               <Route path="/products" element={<Products />} />
