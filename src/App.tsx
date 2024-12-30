@@ -40,7 +40,7 @@ export default function App() {
                   </ProtectedRoute>
                 }
               />
-            </Route>
+            </Route>            
           </Routes>
         </CartProvider>
       </AuthProvider>
