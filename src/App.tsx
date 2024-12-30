@@ -18,14 +18,14 @@ export default function App() {
       <AuthProvider>
         <CartProvider>
           <Routes>
-            <Route path="/goat-farming/auth" element={<Auth />} />
+            <Route path="/auth" element={<Auth />} />
             <Route element={<Layout />}>
-              <Route path="/goat-farming/" element={<Home />} />
-              <Route path="/goat-farming/products" element={<Products />} />
-              <Route path="/goat-farming/about" element={<About />} />
-              <Route path="/goat-farming/contact" element={<Contact />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/products" element={<Products />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
               <Route
-                path="/goat-farming/profile"
+                path="/profile"
                 element={
                   <ProtectedRoute>
                     <Profile />
@@ -33,7 +33,7 @@ export default function App() {
                 }
               />
               <Route
-                path="/goat-farming/cart"
+                path="/cart"
                 element={
                   <ProtectedRoute>
                     <Cart />
