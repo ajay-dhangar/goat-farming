@@ -55,11 +55,11 @@ export default function Navbar() {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="hover:text-green-200">Home</a>
-            <a href="/products" className="hover:text-green-200">Products</a>
-            <a href="/about" className="hover:text-green-200">About</a>
-            <a href="/contact" className="hover:text-green-200">Contact</a>
-            <a href="/cart" className="hover:text-green-200">
+            <a href="/goat-farming/" className="hover:text-green-200">Home</a>
+            <a href="/goat-farming/products" className="hover:text-green-200">Products</a>
+            <a href="/goat-farming/about" className="hover:text-green-200">About</a>
+            <a href="/goat-farming/contact" className="hover:text-green-200">Contact</a>
+            <a href="/goat-farming/cart" className="hover:text-green-200">
               <ShoppingCart className="h-6 w-6" />
             </a>
             <button className="hover:text-green-200">
@@ -67,11 +67,11 @@ export default function Navbar() {
                 <User className="h-6 w-6" />
               </a> */}
               {user ? (
-                <a href="/profile" className="hover:text-green-200">
+                <a href="/goat-farming/profile" className="hover:text-green-200">
                   <User className="h-6 w-6" />
                 </a>
               ) : (
-                <a href="/auth" className="hover:text-green-200">
+                <a href="/goat-farming/auth" className="hover:text-green-200">
                   <User className="h-6 w-6" />
                 </a>
               )}
